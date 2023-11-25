@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="site, resume, cv">
+  <meta name="description" content="Мое резюме">
+  <title>Сайт резюме</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <img class="avatar" src="avatar.jpg" alt="Прокопьева Надежда">
+      
+      <div class="info-text">
+        <h1>Прокопьева Надежда</h1>
+        <p>Я занимаюсь эксплуатацией зданий (организацией обслуживания систем вентиляции, отопления, водоснабжения, электрики и зданий ПАО Сбербанк) и учусь на <strong><em>frontend-разработчика</em></strong></p>
+        
+
+        <h4>Мои проекты</h4>
+
+        <a href="https://github.com/ProNaVy" target="_blank">GitHab</a>
+
+      </div>
+    </div>
+
+    <div class="card bg-green">
+      <h2>Мои хобби</h2>
+      <ol class="list">
+        <li>Прогулки</li>
+        <li>Решение задач на JS</li>
+        <li>Ремонт</li>
+      </ol>
+    </div>
+
+    <div class="card bg-red">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <tbody>
+          <tr>
+              <td>ПАО Сбербанк</td>
+              <td>Старший сервисный менеджер</td>
+              <td>2007-настоящее время</td>
+          </tr>
+          <tr>
+              <td>Яндекс.дзен</td>
+              <td>Блогер</td>
+              <td>2017-2019</td>
+          </tr>
+          <tr>
+              <td>Декрет</td>
+              <td>Разработчик сайта на JUMLA</td>
+              <td>2017-2019</td>
+          </tr>
+      </tbody>
+      </table>
+    </div>
+
+    <div class="card bg-yellow">
+      <h2>Моё обучение</h2>
+      <ol class="list">
+        <li>Result School - интенсив HTML & CSS</li>
+        <li>Hexlet - Основы программирования JS</li>
+        <li>Hexlet - Тестирование с Jest</li>
+        <li>Hexlet - Основы аналитики на SQL</li>
+        <li>СберУниверситет - Основы программирования на JavaScript I</li>
+        <li>СберУниверситет - Основы программирования на JavaScript II</li>
+      </ol>
+    </div>
+
+    <div class="card bg-green">
+      <form class="form" action="/">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <input class="btn" type="submit" value="Отправить!">
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
